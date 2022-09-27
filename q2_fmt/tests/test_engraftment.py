@@ -13,7 +13,7 @@ from qiime2.plugin.testing import TestPluginBase
 from qiime2 import Metadata
 
 from q2_fmt._engraftment import group_timepoints
-
+import foo as foo.bar
 
 class TestBase(TestPluginBase):
     package = 'q2_fmt.tests'
